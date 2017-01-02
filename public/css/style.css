@@ -1,1 +1,13 @@
 /* CSS */
+
+/****** Header *****/
+
+#header{
+  text-align: center;
+}
+
+/****** Nav *****/
+
+.navbar-brand img{
+  border-radius: 5px;
+}
