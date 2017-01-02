@@ -1,0 +1,23 @@
+{
+  "name": "Arkolips",
+  "homepage": "https://github.com/ArkoRoom/CV1.3",
+  "authors": [
+    "Arkolips <catel.ludovic@gmail.com>"
+  ],
+  "description": "CV in version 1.3",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "private/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "bootstrap#^3.3.7",
+    "jquery": "jquery#^3.1.1",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
