@@ -67,6 +67,8 @@
       <div class="slider">
         <div class="container">
           <div class="row">
+
+            <!-- Presentation -->
             <section id="presentation">
               <h4>Bienvenue sur mon CV !</h4>
               <p>
@@ -88,6 +90,9 @@
                 </a>
               </div>
             </section>
+            <!-- /Presentation -->
+
+            <!-- Experiences -->
             <section id="experiences">
               <h4>Mes Expériences</h4>
               <p>
@@ -112,6 +117,9 @@
                 </a>
               </div>
             </section>
+            <!-- /Experiences -->
+
+            <!-- Competences -->
             <section id="competences">
               <h4>Mes Compétences</h4>
               <p>
@@ -150,13 +158,13 @@
                     </tr>
                     <tr>
                       <td>SQL (MySQL)</td>
-                      <td></td>
+                      <td>MongoDB</td>
                       <td></td>
                     </tr>
                   </tbody>
                 </table>
                 <p>
-                  <span>Autres : </span>Sublime Text, Atom, Npm, Bower, Composer, Git, Trello.
+                  <span>Autres : </span>Sublime Text, Atom, Npm, Bower, Composer, Git, Trello, Zendesk.
                 </p>
               </div>
               <div class="col-md-5 col-md-offset-1">
@@ -192,70 +200,97 @@
                 </a>
               </div>
             </section>
+            <!-- /Competences -->
+
+            <!-- Portfolio -->
             <section id="portfolio">
               <h4>PortFolio</h4>
-              <ul class="collapsible" data-collapsible="expandable">
-                <li>
-                  <div class=""><i class=""></i>Réalisations / Participations</div>
-                  <div class="">
-                    <p>
-                      Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
-                      Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
-                    </p>
-                    <ul class="">
-                      <a href="http://btech-lille.com/btech7/x2000/html/formations.html" target="_blank">x2000</a>
-                      <a href="https://github.com/ArkoRoom" target="_blank">Github</a>
-                      <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">LinkedIn</a>
-                    </ul>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class=""></i>Réalisations / Participations
+                      </a>
+                    </h4>
                   </div>
-                </li>
-                <li>
-                  <div class=""><i class="">place</i>Réalisation / Mini-jeux</div>
-                  <div class="">
-                    <div class="">
-                      <h3 class="">Mini-Jeux du <br><i>C'est plus ou c'est moins !</i></h3>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
                       <p>
-                        Bienvenue dans ce Mini-Jeu ! <br>
-                        La règle est simple. L'ordinateur a sélectionner un chiffre aléatoirement entre 1 et 100. <br>
-                        Vous disposez de 6 éssais maximum pour trouver ce chiffre. <br>
-                        Bonne chance !
+                        Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
+                        Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
                       </p>
+                      <ul class="">
+                        <a href="http://btech-lille.com/btech7/x2000/html/formations.html" target="_blank">x2000</a>
+                        <a href="https://github.com/ArkoRoom" target="_blank">Github</a>
+                        <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">LinkedIn</a>
+                      </ul>
                     </div>
-                    <form id="formUser">
-                      <div class="form-group">
-                        <label for="answerUser">Votre réponse</label>
-                        <input type="number" name="answerUser" id="answerUser" value="">
-                      </div>
-                      <input class="btn btn-default" type="button" name="validAnswer" id="validAnswer" value="Valider">
-                    </form>
-                    <div class="answer">
-
-                    </div>
-                      <input type="button" name="restart" class="btn" id="restart" value="Rejouez">
                   </div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Réalisation / Effet</div>
-                  <div class="collapsible-body">
-                    <div class="use-advice">
-                          <h3>Discover</h3>
-                          <p>
-                            Discover est un petit script qui permets de révéler une partie de l'image en cliquant simplement sur le bouton sous l'image.<br>
-                            Des carrés disparaissent alors permettant de révéler une partie de l'image.<br>
-                            L'image est générée grâce à une variable aléatoire.
-                          </p>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class=""></i>Réalisation / Mini-jeux
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <div class="">
+                        <h3 class="">Mini-Jeux du <br><i>C'est plus ou c'est moins !</i></h3>
+                        <p>
+                          Bienvenue dans ce Mini-Jeu ! <br>
+                          La règle est simple. L'ordinateur a sélectionner un chiffre aléatoirement entre 1 et 100. <br>
+                          Vous disposez de 6 éssais maximum pour trouver ce chiffre. <br>
+                          Bonne chance !
+                        </p>
+                      </div>
+                      <form id="formUser">
+                        <div class="form-group">
+                          <label for="answerUser">Votre réponse</label>
+                          <input type="number" name="answerUser" id="answerUser" value="">
                         </div>
-                        <div class="col-md-10 col-md-offset-1">
-                          <div class="wrap-img">
-                            <div class="container-div">
+                        <input class="btn btn-default" type="button" name="validAnswer" id="validAnswer" value="Valider">
+                      </form>
+                      <div class="answer">
 
-                            </div>
+                      </div>
+                        <input type="button" name="restart" class="btn" id="restart" value="Rejouez">
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class=""></i>Réalisation / Effet
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <div class="use-advice">
+                        <h3>Discover</h3>
+                        <p>
+                          Discover est un petit script qui permets de révéler une partie de l'image en cliquant simplement sur le bouton sous l'image.<br>
+                          Des carrés disparaissent alors permettant de révéler une partie de l'image.<br>
+                          L'image est générée grâce à une variable aléatoire.
+                        </p>
+                      </div>
+                      <div class="col-md-10 col-md-offset-1">
+                        <div class="wrap-img">
+                          <div class="container-div">
+
                           </div>
                         </div>
-                        <input type="button" class="btn btn-default" id="delete-div" name="name" value="Supprimer des carrés">
+                      </div>
+                      <input type="button" class="btn btn-default" id="delete-div" name="name" value="Supprimer des carrés">
+                    </div>
                   </div>
-                </li>
-              </ul>
+                </div>
+              </div>
+
               <div class="col-md-8 col-md-offset-2" id="arrow">
                 <a href="#contact" class="arrow-bottom">
                   <div>
@@ -265,6 +300,9 @@
                 </a>
               </div>
             </section>
+            <!-- /Portfolio -->
+
+            <!-- Contact -->
             <section id="contact">
               <h4>Me Contacter</h4>
               <p>
@@ -308,6 +346,8 @@
                 </div>
               </form>
             </section>
+            <!-- /section -->
+
           </div>
         </div>
       </div>
