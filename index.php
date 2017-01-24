@@ -12,13 +12,16 @@
       <!-- Header -->
       <div class="row" id="header">
         <h1>DEVELOPPEUR WEB JUNIOR</h1>
-        <h3>CATEL Ludovic</h3>
-        <p>27 ans, Lille - Nord</p>
-        <div class="col-md-6">
-          <i class="fa fa-envelope" aria-hidden="true"></i>catel.ludovic@gmail.com
+        <div class="col-md-4 col-md-offset-2">
+          <img src="" alt="">
+          <h3>CATEL Ludovic</h3>
         </div>
-        <div class="col-md-6">
-          <i class="fa fa-phone"></i> 06 13 32 59 04
+        <div class="col-md-4">
+          <p>
+            27 ans, Lille - Nord <br>
+            <i class="fa fa-envelope" aria-hidden="true"></i> catel.ludovic@gmail.com <br>
+            <i class="fa fa-phone"></i> 06 13 32 59 04
+          </p>
         </div>
       </div>
       <!-- /Header -->
