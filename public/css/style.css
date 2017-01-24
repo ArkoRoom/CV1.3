@@ -11,3 +11,10 @@
 .navbar-brand img{
   border-radius: 5px;
 }
+
+/****** Section ******/
+
+#section{
+  width: 500%;
+  height: 100%;
+}
